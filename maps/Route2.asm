@@ -148,8 +148,8 @@ Route2_MapEvents:
 	def_warp_events
 	warp_event 17, 21, ROUTE_2_NUGGET_HOUSE, 1
 	warp_event 10, 44, ROUTE_2_GATE, 3
-	warp_event 20, 45, ROUTE_2_GATE, 1
-	warp_event 21, 45, ROUTE_2_GATE, 2
+	warp_event 20, 41, ROUTE_2_GATE, 1
+	warp_event 21, 41, ROUTE_2_GATE, 2
 	warp_event 16, 11, DIGLETTS_CAVE, 3
 
 	def_coord_events
@@ -170,4 +170,4 @@ Route2_MapEvents:
 	object_event  9, 44, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route2MaxPotion, EVENT_ROUTE_2_MAX_POTION
 	object_event 16,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route2Carbos, EVENT_ROUTE_2_CARBOS
 	object_event 12, 44, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Route2Elixer, EVENT_ROUTE_2_ELIXER
-	object_event 22, 22, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route2FruitTree, -1
+	object_event 22, 23, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route2FruitTree, -1
